@@ -20,9 +20,9 @@ truthy examples respectively ::>>>>
 3. any string included single white space " "
 4. '0'
 5. 'false'
-3. {}
-4. []
-5.  anything else that is not falsy will be truthy
+6. {}
+7. []
+8.  anything else that is not falsy will be truthy
 
 
 */
