@@ -32,7 +32,26 @@ function add(c,d){
         var ab = "wow 'C' is greater than 2";
         // console.log(ab)
     }
-    console.log(ab)//op jodi "ab"variable ti cons/let thake tahole globally leak hobe na but jodi vaiable ti var dia thake tahole globally hobe.tao tao abar function er vitorei thakbe.
+    // console.log(ab)//op jodi "ab"variable ti cons/let thake tahole globally leak hobe na but jodi vaiable ti var dia thake tahole globally hobe access. tao tao abar function er vitorei thakbe.
     return plus;
 }
 const pls = add(3,5);
+
+
+
+
+
+// hoisting  eample 
+// 4..
+function hoisting(m,n){
+    const div = m * n; // local scope 
+    if(div > 8){
+        var hoist = "wow 'M' is greater than 2";
+        console.log(hoist)
+         return hoist;
+    }
+    // console.log(hoist);
+    return div;
+}
+const hoisDiv = add(20,5);
+// console.log(hoisDiv);
