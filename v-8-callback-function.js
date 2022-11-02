@@ -1,3 +1,8 @@
+/*
+what is call-back function?
+>>>  jokhon ekti function er parameter ar ekti function er value ba
+jekho trasfer kora jai ba pathano jai etai call-back function.
+*/
 // callback function example 
 // 1..
 function welcomeMessage(name,greetHandler){
