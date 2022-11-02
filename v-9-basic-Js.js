@@ -13,4 +13,4 @@ how to do you know that kon function a koi ta parameter ache ?
 function hello(ab,af,ag,ah){
     // console.log(ab,af,ag,ah);
 }
-console.log(hello.length);  // 4
+console.log(hello.length);  // >>> 4
